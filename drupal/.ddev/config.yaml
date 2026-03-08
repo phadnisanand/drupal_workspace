@@ -298,4 +298,5 @@ hooks:
     - exec-host: "ddev import-db --file=db/site.sql.gz && ddev drush cim -y && ddev drush cr"
 
   pre-stop:
+    
     - exec-host: "ddev drush cr && ddev drush cex -y && ddev drush sql-dump --gzip --result-file=../db/site.sql"
