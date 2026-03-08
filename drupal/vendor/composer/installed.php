@@ -145,6 +145,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.6.3',
+            'version' => '3.6.3.0',
+            'reference' => '3.6.3',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/core' => array(
             'pretty_version' => '10.6.5',
             'version' => '10.6.5.0',
